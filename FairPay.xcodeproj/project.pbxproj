@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				3DB342AF1FA32E2500F4242A /* FairPay */,
-				3DB342C41FA32E2600F4242A /* NasTestTests */,
+				3DB342C41FA32E2600F4242A /* FairPayTests */,
 				3DB342AE1FA32E2500F4242A /* Products */,
 				756D521FDB0D83E885C3DE01 /* Pods */,
 				F76331F7D347A994FE2FBEAB /* Frameworks */,
@@ -110,13 +110,13 @@
 			path = FairPay;
 			sourceTree = "<group>";
 		};
-		3DB342C41FA32E2600F4242A /* NasTestTests */ = {
+		3DB342C41FA32E2600F4242A /* FairPayTests */ = {
 			isa = PBXGroup;
 			children = (
 				3DB342C51FA32E2600F4242A /* NasTestTests.swift */,
 				3DB342C71FA32E2600F4242A /* Info.plist */,
 			);
-			path = NasTestTests;
+			path = FairPayTests;
 			sourceTree = "<group>";
 		};
 		756D521FDB0D83E885C3DE01 /* Pods */ = {
