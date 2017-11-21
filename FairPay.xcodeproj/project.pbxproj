@@ -79,7 +79,7 @@
 		3DB342A41FA32E2500F4242A = {
 			isa = PBXGroup;
 			children = (
-				3DB342AF1FA32E2500F4242A /* NasTest */,
+				3DB342AF1FA32E2500F4242A /* FairPay */,
 				3DB342C41FA32E2600F4242A /* NasTestTests */,
 				3DB342AE1FA32E2500F4242A /* Products */,
 				756D521FDB0D83E885C3DE01 /* Pods */,
@@ -96,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DB342AF1FA32E2500F4242A /* NasTest */ = {
+		3DB342AF1FA32E2500F4242A /* FairPay */ = {
 			isa = PBXGroup;
 			children = (
 				3D23DED21FC3F82600F36C06 /* Models */,
@@ -107,7 +107,7 @@
 				3DB342B91FA32E2600F4242A /* LaunchScreen.storyboard */,
 				3DB342BC1FA32E2600F4242A /* Info.plist */,
 			);
-			path = NasTest;
+			path = FairPay;
 			sourceTree = "<group>";
 		};
 		3DB342C41FA32E2600F4242A /* NasTestTests */ = {
