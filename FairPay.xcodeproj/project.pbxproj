@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F13915394C9A5304A998E56 /* Pods_NasTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62465D808C510912739FE2B2 /* Pods_NasTestTests.framework */; };
+		3D23DED41FC3F83400F36C06 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23DED31FC3F83400F36C06 /* UserInfoModel.swift */; };
+		3DB342B11FA32E2500F4242A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB342B01FA32E2500F4242A /* AppDelegate.swift */; };
+		3DB342B31FA32E2500F4242A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB342B21FA32E2500F4242A /* ViewController.swift */; };
+		3DB342B61FA32E2500F4242A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB342B41FA32E2500F4242A /* Main.storyboard */; };
+		3DB342B81FA32E2500F4242A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB342B71FA32E2500F4242A /* Assets.xcassets */; };
+		3DB342BB1FA32E2600F4242A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB342B91FA32E2600F4242A /* LaunchScreen.storyboard */; };
+		3DB342C61FA32E2600F4242A /* NasTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB342C51FA32E2600F4242A /* NasTestTests.swift */; };
+		8E16222E8CF745F1BE3F774A /* Pods_NasTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F716D7ABC51344506C95 /* Pods_NasTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB342C21FA32E2600F4242A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB342A51FA32E2500F4242A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB342AC1FA32E2500F4242A;
+			remoteInfo = NasTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B63577DD5AB967DA56896E /* Pods-NasTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NasTestTests/Pods-NasTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D23DED31FC3F83400F36C06 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		3DB342AD1FA32E2500F4242A /* FairPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB342B01FA32E2500F4242A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB342B21FA32E2500F4242A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB342B51FA32E2500F4242A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB342B71FA32E2500F4242A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB342BA1FA32E2600F4242A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB342BC1FA32E2600F4242A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB342C11FA32E2600F4242A /* FairPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB342C51FA32E2600F4242A /* NasTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasTestTests.swift; sourceTree = "<group>"; };
+		3DB342C71FA32E2600F4242A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62465D808C510912739FE2B2 /* Pods_NasTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C695C9135E93F6358BDFD8F /* Pods-NasTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NasTestTests/Pods-NasTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95D9C8E3569077CC24E33927 /* Pods-NasTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NasTest/Pods-NasTest.release.xcconfig"; sourceTree = "<group>"; };
+		E8F0F716D7ABC51344506C95 /* Pods_NasTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3A1A37AA662710E1F45F7E /* Pods-NasTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NasTest/Pods-NasTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB342AA1FA32E2500F4242A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E16222E8CF745F1BE3F774A /* Pods_NasTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB342BE1FA32E2600F4242A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F13915394C9A5304A998E56 /* Pods_NasTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D23DED21FC3F82600F36C06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D23DED31FC3F83400F36C06 /* UserInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DB342A41FA32E2500F4242A = {
+			isa = PBXGroup;
+			children = (
+				3DB342AF1FA32E2500F4242A /* NasTest */,
+				3DB342C41FA32E2600F4242A /* NasTestTests */,
+				3DB342AE1FA32E2500F4242A /* Products */,
+				756D521FDB0D83E885C3DE01 /* Pods */,
+				F76331F7D347A994FE2FBEAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB342AE1FA32E2500F4242A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB342AD1FA32E2500F4242A /* FairPay.app */,
+				3DB342C11FA32E2600F4242A /* FairPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB342AF1FA32E2500F4242A /* NasTest */ = {
+			isa = PBXGroup;
+			children = (
+				3D23DED21FC3F82600F36C06 /* Models */,
+				3DB342B01FA32E2500F4242A /* AppDelegate.swift */,
+				3DB342B21FA32E2500F4242A /* ViewController.swift */,
+				3DB342B41FA32E2500F4242A /* Main.storyboard */,
+				3DB342B71FA32E2500F4242A /* Assets.xcassets */,
+				3DB342B91FA32E2600F4242A /* LaunchScreen.storyboard */,
+				3DB342BC1FA32E2600F4242A /* Info.plist */,
+			);
+			path = NasTest;
+			sourceTree = "<group>";
+		};
+		3DB342C41FA32E2600F4242A /* NasTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB342C51FA32E2600F4242A /* NasTestTests.swift */,
+				3DB342C71FA32E2600F4242A /* Info.plist */,
+			);
+			path = NasTestTests;
+			sourceTree = "<group>";
+		};
+		756D521FDB0D83E885C3DE01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB3A1A37AA662710E1F45F7E /* Pods-NasTest.debug.xcconfig */,
+				95D9C8E3569077CC24E33927 /* Pods-NasTest.release.xcconfig */,
+				6C695C9135E93F6358BDFD8F /* Pods-NasTestTests.debug.xcconfig */,
+				09B63577DD5AB967DA56896E /* Pods-NasTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F76331F7D347A994FE2FBEAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F716D7ABC51344506C95 /* Pods_NasTest.framework */,
+				62465D808C510912739FE2B2 /* Pods_NasTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB342AC1FA32E2500F4242A /* FairPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB342CA1FA32E2600F4242A /* Build configuration list for PBXNativeTarget "FairPay" */;
+			buildPhases = (
+				442FC2F9377D0CE69DD2055C /* [CP] Check Pods Manifest.lock */,
+				3DB342A91FA32E2500F4242A /* Sources */,
+				3DB342AA1FA32E2500F4242A /* Frameworks */,
+				3DB342AB1FA32E2500F4242A /* Resources */,
+				A2311B330F95B767269F7D62 /* [CP] Embed Pods Frameworks */,
+				9FD02E10B273D2B6555E8854 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FairPay;
+			productName = NasTest;
+			productReference = 3DB342AD1FA32E2500F4242A /* FairPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB342C01FA32E2600F4242A /* FairPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB342CD1FA32E2600F4242A /* Build configuration list for PBXNativeTarget "FairPayTests" */;
+			buildPhases = (
+				49770E2532B3580DE33D5170 /* [CP] Check Pods Manifest.lock */,
+				3DB342BD1FA32E2600F4242A /* Sources */,
+				3DB342BE1FA32E2600F4242A /* Frameworks */,
+				3DB342BF1FA32E2600F4242A /* Resources */,
+				8285DDA86124C536362DA9A9 /* [CP] Embed Pods Frameworks */,
+				C66B0E58D2BC89EF3C64FE29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB342C31FA32E2600F4242A /* PBXTargetDependency */,
+			);
+			name = FairPayTests;
+			productName = NasTestTests;
+			productReference = 3DB342C11FA32E2600F4242A /* FairPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB342A51FA32E2500F4242A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = suyong.lim;
+				TargetAttributes = {
+					3DB342AC1FA32E2500F4242A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3DB342C01FA32E2600F4242A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DB342AC1FA32E2500F4242A;
+					};
+				};
+			};
+			buildConfigurationList = 3DB342A81FA32E2500F4242A /* Build configuration list for PBXProject "FairPay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB342A41FA32E2500F4242A;
+			productRefGroup = 3DB342AE1FA32E2500F4242A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB342AC1FA32E2500F4242A /* FairPay */,
+				3DB342C01FA32E2600F4242A /* FairPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB342AB1FA32E2500F4242A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB342BB1FA32E2600F4242A /* LaunchScreen.storyboard in Resources */,
+				3DB342B81FA32E2500F4242A /* Assets.xcassets in Resources */,
+				3DB342B61FA32E2500F4242A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB342BF1FA32E2600F4242A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		442FC2F9377D0CE69DD2055C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49770E2532B3580DE33D5170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8285DDA86124C536362DA9A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasTestTests/Pods-NasTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD02E10B273D2B6555E8854 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasTest/Pods-NasTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2311B330F95B767269F7D62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NasTest/Pods-NasTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasTest/Pods-NasTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66B0E58D2BC89EF3C64FE29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasTestTests/Pods-NasTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB342A91FA32E2500F4242A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D23DED41FC3F83400F36C06 /* UserInfoModel.swift in Sources */,
+				3DB342B31FA32E2500F4242A /* ViewController.swift in Sources */,
+				3DB342B11FA32E2500F4242A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB342BD1FA32E2600F4242A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB342C61FA32E2600F4242A /* NasTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB342C31FA32E2600F4242A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB342AC1FA32E2500F4242A /* FairPay */;
+			targetProxy = 3DB342C21FA32E2600F4242A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB342B41FA32E2500F4242A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB342B51FA32E2500F4242A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB342B91FA32E2600F4242A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB342BA1FA32E2600F4242A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB342C81FA32E2600F4242A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB342C91FA32E2600F4242A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB342CB1FA32E2600F4242A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3A1A37AA662710E1F45F7E /* Pods-NasTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBZXBQP4JD;
+				INFOPLIST_FILE = NasTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyong.NasTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB342CC1FA32E2600F4242A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D9C8E3569077CC24E33927 /* Pods-NasTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBZXBQP4JD;
+				INFOPLIST_FILE = NasTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyong.NasTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DB342CE1FA32E2600F4242A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C695C9135E93F6358BDFD8F /* Pods-NasTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBZXBQP4JD;
+				INFOPLIST_FILE = NasTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyong.NasTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairPay.app/FairPay";
+			};
+			name = Debug;
+		};
+		3DB342CF1FA32E2600F4242A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B63577DD5AB967DA56896E /* Pods-NasTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KBZXBQP4JD;
+				INFOPLIST_FILE = NasTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyong.NasTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairPay.app/FairPay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB342A81FA32E2500F4242A /* Build configuration list for PBXProject "FairPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB342C81FA32E2600F4242A /* Debug */,
+				3DB342C91FA32E2600F4242A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB342CA1FA32E2600F4242A /* Build configuration list for PBXNativeTarget "FairPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB342CB1FA32E2600F4242A /* Debug */,
+				3DB342CC1FA32E2600F4242A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB342CD1FA32E2600F4242A /* Build configuration list for PBXNativeTarget "FairPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB342CE1FA32E2600F4242A /* Debug */,
+				3DB342CF1FA32E2600F4242A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB342A51FA32E2500F4242A /* Project object */;
+}
